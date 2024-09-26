@@ -1,0 +1,5 @@
+# ninja log v6
+37	128	1727341127134007771	c_lab_classes	bd991c7104be27af
+0	153	1727341005885830472	CMakeFiles/c_lab_classes.dir/26_09_2024_first_lab/first_lab.c.o	170389de98a71328
+1	44	1727341210930871462	build.ninja	468fb63dee419788
+0	37	1727341127096797340	CMakeFiles/c_lab_classes.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o	75e8d3dbd7af5602
