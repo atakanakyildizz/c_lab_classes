@@ -11,3 +11,4 @@ add_executable(c_lab_classes
         3_10_2024_second_lab/3_10_2024_second_lab.c)
 
 add_executable(3_10_2024_second_lab 3_10_2024_second_lab/3_10_2024_second_lab.c)
+add_executable(first_lab 26_09_2024_first_lab/first_lab.c)

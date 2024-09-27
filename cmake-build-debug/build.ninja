@@ -111,6 +111,38 @@ build 3_10_2024_second_lab: C_EXECUTABLE_LINKER__3_10_2024_second_lab_Debug CMak
   TARGET_FILE = 3_10_2024_second_lab
   TARGET_PDB = 3_10_2024_second_lab.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target first_lab
+
+
+#############################################
+# Order-only phony target for first_lab
+
+build cmake_object_order_depends_target_first_lab: phony || .
+
+build CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o: C_COMPILER__first_lab_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab/first_lab.c || cmake_object_order_depends_target_first_lab
+  DEP_FILE = CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/first_lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/first_lab.dir/26_09_2024_first_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target first_lab
+
+
+#############################################
+# Link the executable first_lab
+
+build first_lab: C_EXECUTABLE_LINKER__first_lab_Debug CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/first_lab.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = first_lab
+  TARGET_PDB = first_lab.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -145,7 +177,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
 
-build all: phony c_lab_classes 3_10_2024_second_lab
+build all: phony c_lab_classes 3_10_2024_second_lab first_lab
 
 # =============================================================================
 # Built-in targets

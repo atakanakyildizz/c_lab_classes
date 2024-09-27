@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -50,6 +52,13 @@
 					"id" : "c_lab_classes::@6890427a1f51a3e7e1df",
 					"jsonFile" : "target-c_lab_classes-Debug-17c768bb370f5f78ab65.json",
 					"name" : "c_lab_classes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_lab::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_lab-Debug-3e9b58d8aaa8de94f806.json",
+					"name" : "first_lab",
 					"projectIndex" : 0
 				}
 			]
