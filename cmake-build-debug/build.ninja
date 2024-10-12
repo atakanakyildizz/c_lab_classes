@@ -63,6 +63,13 @@ build CMakeFiles/c_lab_classes.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o
   OBJECT_DIR = CMakeFiles/c_lab_classes.dir
   OBJECT_FILE_DIR = CMakeFiles/c_lab_classes.dir/3_10_2024_second_lab
 
+build CMakeFiles/c_lab_classes.dir/10_10_2024_third_lab/third_lab.c.o: C_COMPILER__c_lab_classes_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/third_lab.c || cmake_object_order_depends_target_c_lab_classes
+  DEP_FILE = CMakeFiles/c_lab_classes.dir/10_10_2024_third_lab/third_lab.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/c_lab_classes.dir
+  OBJECT_FILE_DIR = CMakeFiles/c_lab_classes.dir/10_10_2024_third_lab
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target c_lab_classes
@@ -71,7 +78,7 @@ build CMakeFiles/c_lab_classes.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o
 #############################################
 # Link the executable c_lab_classes
 
-build c_lab_classes: C_EXECUTABLE_LINKER__c_lab_classes_Debug CMakeFiles/c_lab_classes.dir/26_09_2024_first_lab/first_lab.c.o CMakeFiles/c_lab_classes.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o
+build c_lab_classes: C_EXECUTABLE_LINKER__c_lab_classes_Debug CMakeFiles/c_lab_classes.dir/26_09_2024_first_lab/first_lab.c.o CMakeFiles/c_lab_classes.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o CMakeFiles/c_lab_classes.dir/10_10_2024_third_lab/third_lab.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/c_lab_classes.dir
   POST_BUILD = :
@@ -95,6 +102,13 @@ build CMakeFiles/3_10_2024_second_lab.dir/3_10_2024_second_lab/3_10_2024_second_
   OBJECT_DIR = CMakeFiles/3_10_2024_second_lab.dir
   OBJECT_FILE_DIR = CMakeFiles/3_10_2024_second_lab.dir/3_10_2024_second_lab
 
+build CMakeFiles/3_10_2024_second_lab.dir/10_10_2024_third_lab/third_lab.c.o: C_COMPILER__3_10_2024_second_lab_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/third_lab.c || cmake_object_order_depends_target_3_10_2024_second_lab
+  DEP_FILE = CMakeFiles/3_10_2024_second_lab.dir/10_10_2024_third_lab/third_lab.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/3_10_2024_second_lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/3_10_2024_second_lab.dir/10_10_2024_third_lab
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target 3_10_2024_second_lab
@@ -103,7 +117,7 @@ build CMakeFiles/3_10_2024_second_lab.dir/3_10_2024_second_lab/3_10_2024_second_
 #############################################
 # Link the executable 3_10_2024_second_lab
 
-build 3_10_2024_second_lab: C_EXECUTABLE_LINKER__3_10_2024_second_lab_Debug CMakeFiles/3_10_2024_second_lab.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o
+build 3_10_2024_second_lab: C_EXECUTABLE_LINKER__3_10_2024_second_lab_Debug CMakeFiles/3_10_2024_second_lab.dir/3_10_2024_second_lab/3_10_2024_second_lab.c.o CMakeFiles/3_10_2024_second_lab.dir/10_10_2024_third_lab/third_lab.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/3_10_2024_second_lab.dir
   POST_BUILD = :
@@ -127,6 +141,13 @@ build CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o: C_COMPILER__f
   OBJECT_DIR = CMakeFiles/first_lab.dir
   OBJECT_FILE_DIR = CMakeFiles/first_lab.dir/26_09_2024_first_lab
 
+build CMakeFiles/first_lab.dir/10_10_2024_third_lab/third_lab.c.o: C_COMPILER__first_lab_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/third_lab.c || cmake_object_order_depends_target_first_lab
+  DEP_FILE = CMakeFiles/first_lab.dir/10_10_2024_third_lab/third_lab.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/first_lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/first_lab.dir/10_10_2024_third_lab
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target first_lab
@@ -135,13 +156,45 @@ build CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o: C_COMPILER__f
 #############################################
 # Link the executable first_lab
 
-build first_lab: C_EXECUTABLE_LINKER__first_lab_Debug CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o
+build first_lab: C_EXECUTABLE_LINKER__first_lab_Debug CMakeFiles/first_lab.dir/26_09_2024_first_lab/first_lab.c.o CMakeFiles/first_lab.dir/10_10_2024_third_lab/third_lab.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
   OBJECT_DIR = CMakeFiles/first_lab.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = first_lab
   TARGET_PDB = first_lab.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target third_lab
+
+
+#############################################
+# Order-only phony target for third_lab
+
+build cmake_object_order_depends_target_third_lab: phony || .
+
+build CMakeFiles/third_lab.dir/10_10_2024_third_lab/third_lab.c.o: C_COMPILER__third_lab_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/third_lab.c || cmake_object_order_depends_target_third_lab
+  DEP_FILE = CMakeFiles/third_lab.dir/10_10_2024_third_lab/third_lab.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/third_lab.dir
+  OBJECT_FILE_DIR = CMakeFiles/third_lab.dir/10_10_2024_third_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target third_lab
+
+
+#############################################
+# Link the executable third_lab
+
+build third_lab: C_EXECUTABLE_LINKER__third_lab_Debug CMakeFiles/third_lab.dir/10_10_2024_third_lab/third_lab.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  OBJECT_DIR = CMakeFiles/third_lab.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = third_lab
+  TARGET_PDB = third_lab.dbg
 
 
 #############################################
@@ -177,7 +230,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
 
-build all: phony c_lab_classes 3_10_2024_second_lab first_lab
+build all: phony c_lab_classes 3_10_2024_second_lab first_lab third_lab
 
 # =============================================================================
 # Built-in targets
