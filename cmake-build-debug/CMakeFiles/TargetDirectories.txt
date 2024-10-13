@@ -2,5 +2,6 @@
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/3_10_2024_second_lab.dir
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/first_lab.dir
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/third_lab.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/homework.dir
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
