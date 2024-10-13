@@ -6,19 +6,25 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-#define FILENAME "alphabet.in"
+#define ALPHABETFILENAME "alphabet.in"
 
-void turn(char message[50]) {
-    char letter, code[26], alphabet[26];
-
-    FILE *fp = fopen("alphabet.in", "r");
+void turn(char message[50], char outputfile[50]) {
+    char letter, code[500], alphabet[500];
+    FILE *fp = fopen(ALPHABETFILENAME, "r");
+    FILE *fptr = fopen(outputfile, "w");
+    if(fptr == NULL) {
+        printf("Could not open output file\n");
+    }
     while(fscanf (fp , "%c\t%s\n", &letter , code) != EOF) {
-        strcpy(alphabet[letter - '  '] , code );
+        for (int i = 0; i < strlen(code); i++) {
+            strcpy(alphabet[letter - '  '], code);
+        }
+        printf("%c", code[0]);
     }
+
+
+    fclose(fptr);
     fclose (fp);
-    for (int i = 0; i < strlen(alphabet); i++) {
-        printf("%c\n", alphabet[i]);
-    }
 }
 
 
@@ -54,6 +60,8 @@ int main() {
                 fputs(message, fptr);
                 fclose(fptr);
             }
+            turn(message, encodedout);
+
             fclose(fp);
         }
         break;;
@@ -89,7 +97,6 @@ int main() {
             printf("Exiting");
         break;
     }
-    turn(message);
 
 }
 
