@@ -6,17 +6,12 @@ set(CMAKE_C_STANDARD 11)
 include_directories(.)
 include_directories(26_09_2024_first_lab)
 
-add_executable(c_lab_classes
-    26_09_2024_first_lab/first_lab.c
-        3_10_2024_second_lab/3_10_2024_second_lab.c
-        10_10_2024_third_lab/third_lab.c
-        10_10_2024_third_lab/homework.c)
+add_executable(1_1_a_InputVerificationAndConversion 10_10_2024_third_lab/1_1_a_InputVerificationAndConversion.c
+        10_10_2024_third_lab/morse_command.c)
+add_executable(1_1_b_IntegerConversionWithAtof 10_10_2024_third_lab/1_1_b_IntegerConversionWithAtof.c)
+add_executable(1_1_c_d_VerificationOfTheNumberOfPassportCharacters 10_10_2024_third_lab/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.c)
+add_executable(1_1_e_ConversionOfInputCharactersTouUpercaseLowercase 10_10_2024_third_lab/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.c)
+add_executable(1_2MorseCodeTranslator 10_10_2024_third_lab/1_2MorseCodeTranslator.c)
+add_executable(morse_command 10_10_2024_third_lab/morse_command.c)
 
-add_executable(3_10_2024_second_lab 3_10_2024_second_lab/3_10_2024_second_lab.c
-        10_10_2024_third_lab/third_lab.c)
-add_executable(first_lab 26_09_2024_first_lab/first_lab.c
-        10_10_2024_third_lab/third_lab.c)
-add_executable(third_lab 10_10_2024_third_lab/third_lab.c
-        10_10_2024_third_lab/third_lab.c)
-add_executable(homework 10_10_2024_third_lab/homework.c
-        10_10_2024_third_lab/homework.c)
+
