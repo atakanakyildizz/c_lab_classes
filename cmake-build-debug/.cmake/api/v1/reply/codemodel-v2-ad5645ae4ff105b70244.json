@@ -1,0 +1,159 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "c_lab_classes",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1-Debug-eca523b892f136953693.json",
+					"name" : "1_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1_a_InputVerificationAndConversion::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1_a_InputVerificationAndConversion-Debug-a747eb5571786f659aa1.json",
+					"name" : "1_1_a_InputVerificationAndConversion",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1_b_IntegerConversionWithAtof::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1_b_IntegerConversionWithAtof-Debug-55c05e46834367a0fd4e.json",
+					"name" : "1_1_b_IntegerConversionWithAtof",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1_c_d_VerificationOfTheNumberOfPassportCharacters::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1_c_d_VerificationOfTheNumberOfPassportCharacters-Debug-25c11e3372a8acb063c4.json",
+					"name" : "1_1_c_d_VerificationOfTheNumberOfPassportCharacters",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1_e_ConversionOfInputCharactersTouUpercaseLowercase::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1_e_ConversionOfInputCharactersTouUpercaseLowercase-Debug-c6a167632065c03eb36e.json",
+					"name" : "1_1_e_ConversionOfInputCharactersTouUpercaseLowercase",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_1_lab_5::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_1_lab_5-Debug-b2f9e530a41b2f3791c8.json",
+					"name" : "1_1_lab_5",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_2-Debug-f531b767e0d867c8b2ad.json",
+					"name" : "1_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "1_2MorseCodeTranslator::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-1_2MorseCodeTranslator-Debug-73681305303a89b43014.json",
+					"name" : "1_2MorseCodeTranslator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "2_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-2_1-Debug-bb057c198b3f0f8e6ba8.json",
+					"name" : "2_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "morse_command::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-morse_command-Debug-9542ec0fadc72ec3d525.json",
+					"name" : "morse_command",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectangle_sorting_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectangle_sorting_1-Debug-6b1c0504b384a964b58f.json",
+					"name" : "rectangle_sorting_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rectangle_sorting_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rectangle_sorting_2-Debug-3566b00d022319aef6c5.json",
+					"name" : "rectangle_sorting_2",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug",
+		"source" : "/Users/atakanakyildiz/CLionProjects/c_lab_classes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -51,17 +51,24 @@ build cmake_object_order_depends_target_1_1_a_InputVerificationAndConversion: ph
 
 build CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/1_1_a_InputVerificationAndConversion.c.o: C_COMPILER__1_1_a_InputVerificationAndConversion_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/1_1_a_InputVerificationAndConversion.c || cmake_object_order_depends_target_1_1_a_InputVerificationAndConversion
   DEP_FILE = CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/1_1_a_InputVerificationAndConversion.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir
   OBJECT_FILE_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab
 
 build CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/morse_command.c.o: C_COMPILER__1_1_a_InputVerificationAndConversion_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/morse_command.c || cmake_object_order_depends_target_1_1_a_InputVerificationAndConversion
   DEP_FILE = CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/morse_command.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir
   OBJECT_FILE_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab
+
+build CMakeFiles/1_1_a_InputVerificationAndConversion.dir/17_10_2024_fifth_lab/1_1.c.o: C_COMPILER__1_1_a_InputVerificationAndConversion_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/17_10_2024_fifth_lab/1_1.c || cmake_object_order_depends_target_1_1_a_InputVerificationAndConversion
+  DEP_FILE = CMakeFiles/1_1_a_InputVerificationAndConversion.dir/17_10_2024_fifth_lab/1_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir/17_10_2024_fifth_lab
 
 
 # =============================================================================
@@ -71,8 +78,8 @@ build CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/m
 #############################################
 # Link the executable 1_1_a_InputVerificationAndConversion
 
-build 1_1_a_InputVerificationAndConversion: C_EXECUTABLE_LINKER__1_1_a_InputVerificationAndConversion_Debug CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/1_1_a_InputVerificationAndConversion.c.o CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/morse_command.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+build 1_1_a_InputVerificationAndConversion: C_EXECUTABLE_LINKER__1_1_a_InputVerificationAndConversion_Debug CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/1_1_a_InputVerificationAndConversion.c.o CMakeFiles/1_1_a_InputVerificationAndConversion.dir/10_10_2024_third_lab/morse_command.c.o CMakeFiles/1_1_a_InputVerificationAndConversion.dir/17_10_2024_fifth_lab/1_1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/1_1_a_InputVerificationAndConversion.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -90,7 +97,7 @@ build cmake_object_order_depends_target_1_1_b_IntegerConversionWithAtof: phony |
 
 build CMakeFiles/1_1_b_IntegerConversionWithAtof.dir/10_10_2024_third_lab/1_1_b_IntegerConversionWithAtof.c.o: C_COMPILER__1_1_b_IntegerConversionWithAtof_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/1_1_b_IntegerConversionWithAtof.c || cmake_object_order_depends_target_1_1_b_IntegerConversionWithAtof
   DEP_FILE = CMakeFiles/1_1_b_IntegerConversionWithAtof.dir/10_10_2024_third_lab/1_1_b_IntegerConversionWithAtof.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/1_1_b_IntegerConversionWithAtof.dir
   OBJECT_FILE_DIR = CMakeFiles/1_1_b_IntegerConversionWithAtof.dir/10_10_2024_third_lab
@@ -104,7 +111,7 @@ build CMakeFiles/1_1_b_IntegerConversionWithAtof.dir/10_10_2024_third_lab/1_1_b_
 # Link the executable 1_1_b_IntegerConversionWithAtof
 
 build 1_1_b_IntegerConversionWithAtof: C_EXECUTABLE_LINKER__1_1_b_IntegerConversionWithAtof_Debug CMakeFiles/1_1_b_IntegerConversionWithAtof.dir/10_10_2024_third_lab/1_1_b_IntegerConversionWithAtof.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/1_1_b_IntegerConversionWithAtof.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -122,7 +129,7 @@ build cmake_object_order_depends_target_1_1_c_d_VerificationOfTheNumberOfPasspor
 
 build CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir/10_10_2024_third_lab/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.c.o: C_COMPILER__1_1_c_d_VerificationOfTheNumberOfPassportCharacters_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.c || cmake_object_order_depends_target_1_1_c_d_VerificationOfTheNumberOfPassportCharacters
   DEP_FILE = CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir/10_10_2024_third_lab/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir
   OBJECT_FILE_DIR = CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir/10_10_2024_third_lab
@@ -136,7 +143,7 @@ build CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir/10_10_2
 # Link the executable 1_1_c_d_VerificationOfTheNumberOfPassportCharacters
 
 build 1_1_c_d_VerificationOfTheNumberOfPassportCharacters: C_EXECUTABLE_LINKER__1_1_c_d_VerificationOfTheNumberOfPassportCharacters_Debug CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir/10_10_2024_third_lab/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/1_1_c_d_VerificationOfTheNumberOfPassportCharacters.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -154,7 +161,7 @@ build cmake_object_order_depends_target_1_1_e_ConversionOfInputCharactersTouUper
 
 build CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir/10_10_2024_third_lab/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.c.o: C_COMPILER__1_1_e_ConversionOfInputCharactersTouUpercaseLowercase_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.c || cmake_object_order_depends_target_1_1_e_ConversionOfInputCharactersTouUpercaseLowercase
   DEP_FILE = CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir/10_10_2024_third_lab/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir
   OBJECT_FILE_DIR = CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir/10_10_2024_third_lab
@@ -168,7 +175,7 @@ build CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir/10_10
 # Link the executable 1_1_e_ConversionOfInputCharactersTouUpercaseLowercase
 
 build 1_1_e_ConversionOfInputCharactersTouUpercaseLowercase: C_EXECUTABLE_LINKER__1_1_e_ConversionOfInputCharactersTouUpercaseLowercase_Debug CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir/10_10_2024_third_lab/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/1_1_e_ConversionOfInputCharactersTouUpercaseLowercase.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -186,7 +193,7 @@ build cmake_object_order_depends_target_1_2MorseCodeTranslator: phony || .
 
 build CMakeFiles/1_2MorseCodeTranslator.dir/10_10_2024_third_lab/1_2MorseCodeTranslator.c.o: C_COMPILER__1_2MorseCodeTranslator_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/1_2MorseCodeTranslator.c || cmake_object_order_depends_target_1_2MorseCodeTranslator
   DEP_FILE = CMakeFiles/1_2MorseCodeTranslator.dir/10_10_2024_third_lab/1_2MorseCodeTranslator.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/1_2MorseCodeTranslator.dir
   OBJECT_FILE_DIR = CMakeFiles/1_2MorseCodeTranslator.dir/10_10_2024_third_lab
@@ -200,7 +207,7 @@ build CMakeFiles/1_2MorseCodeTranslator.dir/10_10_2024_third_lab/1_2MorseCodeTra
 # Link the executable 1_2MorseCodeTranslator
 
 build 1_2MorseCodeTranslator: C_EXECUTABLE_LINKER__1_2MorseCodeTranslator_Debug CMakeFiles/1_2MorseCodeTranslator.dir/10_10_2024_third_lab/1_2MorseCodeTranslator.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/1_2MorseCodeTranslator.dir
   POST_BUILD = :
   PRE_LINK = :
@@ -218,7 +225,7 @@ build cmake_object_order_depends_target_morse_command: phony || .
 
 build CMakeFiles/morse_command.dir/10_10_2024_third_lab/morse_command.c.o: C_COMPILER__morse_command_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/10_10_2024_third_lab/morse_command.c || cmake_object_order_depends_target_morse_command
   DEP_FILE = CMakeFiles/morse_command.dir/10_10_2024_third_lab/morse_command.c.o.d
-  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk -fcolor-diagnostics
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
   INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
   OBJECT_DIR = CMakeFiles/morse_command.dir
   OBJECT_FILE_DIR = CMakeFiles/morse_command.dir/10_10_2024_third_lab
@@ -232,12 +239,232 @@ build CMakeFiles/morse_command.dir/10_10_2024_third_lab/morse_command.c.o: C_COM
 # Link the executable morse_command
 
 build morse_command: C_EXECUTABLE_LINKER__morse_command_Debug CMakeFiles/morse_command.dir/10_10_2024_third_lab/morse_command.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.0.sdk
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
   OBJECT_DIR = CMakeFiles/morse_command.dir
   POST_BUILD = :
   PRE_LINK = :
   TARGET_FILE = morse_command
   TARGET_PDB = morse_command.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_1
+
+
+#############################################
+# Order-only phony target for 1_1
+
+build cmake_object_order_depends_target_1_1: phony || .
+
+build CMakeFiles/1_1.dir/17_10_2024_fifth_lab/1_1.c.o: C_COMPILER__1_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/17_10_2024_fifth_lab/1_1.c || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/17_10_2024_fifth_lab/1_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/17_10_2024_fifth_lab
+
+build CMakeFiles/1_1.dir/17_10_2024_fifth_lab/1_2.c.o: C_COMPILER__1_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/17_10_2024_fifth_lab/1_2.c || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/17_10_2024_fifth_lab/1_2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/17_10_2024_fifth_lab
+
+build CMakeFiles/1_1.dir/17_10_2024_fifth_lab/2_1.c.o: C_COMPILER__1_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/17_10_2024_fifth_lab/2_1.c || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/17_10_2024_fifth_lab/2_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/17_10_2024_fifth_lab
+
+build CMakeFiles/1_1.dir/24_10_2024_sixth_lab/1_1_lab_5.c.o: C_COMPILER__1_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/24_10_2024_sixth_lab/1_1_lab_5.c || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/24_10_2024_sixth_lab/1_1_lab_5.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/24_10_2024_sixth_lab
+
+build CMakeFiles/1_1.dir/24_10_2024_sixth_lab/rectangle_sorting_1.c.o: C_COMPILER__1_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/24_10_2024_sixth_lab/rectangle_sorting_1.c || cmake_object_order_depends_target_1_1
+  DEP_FILE = CMakeFiles/1_1.dir/24_10_2024_sixth_lab/rectangle_sorting_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1.dir/24_10_2024_sixth_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_1
+
+
+#############################################
+# Link the executable 1_1
+
+build 1_1: C_EXECUTABLE_LINKER__1_1_Debug CMakeFiles/1_1.dir/17_10_2024_fifth_lab/1_1.c.o CMakeFiles/1_1.dir/17_10_2024_fifth_lab/1_2.c.o CMakeFiles/1_1.dir/17_10_2024_fifth_lab/2_1.c.o CMakeFiles/1_1.dir/24_10_2024_sixth_lab/1_1_lab_5.c.o CMakeFiles/1_1.dir/24_10_2024_sixth_lab/rectangle_sorting_1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/1_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_1
+  TARGET_PDB = 1_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_2
+
+
+#############################################
+# Order-only phony target for 1_2
+
+build cmake_object_order_depends_target_1_2: phony || .
+
+build CMakeFiles/1_2.dir/17_10_2024_fifth_lab/1_2.c.o: C_COMPILER__1_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/17_10_2024_fifth_lab/1_2.c || cmake_object_order_depends_target_1_2
+  DEP_FILE = CMakeFiles/1_2.dir/17_10_2024_fifth_lab/1_2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_2.dir/17_10_2024_fifth_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_2
+
+
+#############################################
+# Link the executable 1_2
+
+build 1_2: C_EXECUTABLE_LINKER__1_2_Debug CMakeFiles/1_2.dir/17_10_2024_fifth_lab/1_2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/1_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_2
+  TARGET_PDB = 1_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 2_1
+
+
+#############################################
+# Order-only phony target for 2_1
+
+build cmake_object_order_depends_target_2_1: phony || .
+
+build CMakeFiles/2_1.dir/17_10_2024_fifth_lab/2_1.c.o: C_COMPILER__2_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/17_10_2024_fifth_lab/2_1.c || cmake_object_order_depends_target_2_1
+  DEP_FILE = CMakeFiles/2_1.dir/17_10_2024_fifth_lab/2_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/2_1.dir/17_10_2024_fifth_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 2_1
+
+
+#############################################
+# Link the executable 2_1
+
+build 2_1: C_EXECUTABLE_LINKER__2_1_Debug CMakeFiles/2_1.dir/17_10_2024_fifth_lab/2_1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/2_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 2_1
+  TARGET_PDB = 2_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 1_1_lab_5
+
+
+#############################################
+# Order-only phony target for 1_1_lab_5
+
+build cmake_object_order_depends_target_1_1_lab_5: phony || .
+
+build CMakeFiles/1_1_lab_5.dir/24_10_2024_sixth_lab/1_1_lab_5.c.o: C_COMPILER__1_1_lab_5_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/24_10_2024_sixth_lab/1_1_lab_5.c || cmake_object_order_depends_target_1_1_lab_5
+  DEP_FILE = CMakeFiles/1_1_lab_5.dir/24_10_2024_sixth_lab/1_1_lab_5.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/1_1_lab_5.dir
+  OBJECT_FILE_DIR = CMakeFiles/1_1_lab_5.dir/24_10_2024_sixth_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 1_1_lab_5
+
+
+#############################################
+# Link the executable 1_1_lab_5
+
+build 1_1_lab_5: C_EXECUTABLE_LINKER__1_1_lab_5_Debug CMakeFiles/1_1_lab_5.dir/24_10_2024_sixth_lab/1_1_lab_5.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/1_1_lab_5.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = 1_1_lab_5
+  TARGET_PDB = 1_1_lab_5.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rectangle_sorting_1
+
+
+#############################################
+# Order-only phony target for rectangle_sorting_1
+
+build cmake_object_order_depends_target_rectangle_sorting_1: phony || .
+
+build CMakeFiles/rectangle_sorting_1.dir/24_10_2024_sixth_lab/rectangle_sorting_1.c.o: C_COMPILER__rectangle_sorting_1_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/24_10_2024_sixth_lab/rectangle_sorting_1.c || cmake_object_order_depends_target_rectangle_sorting_1
+  DEP_FILE = CMakeFiles/rectangle_sorting_1.dir/24_10_2024_sixth_lab/rectangle_sorting_1.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/rectangle_sorting_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/rectangle_sorting_1.dir/24_10_2024_sixth_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rectangle_sorting_1
+
+
+#############################################
+# Link the executable rectangle_sorting_1
+
+build rectangle_sorting_1: C_EXECUTABLE_LINKER__rectangle_sorting_1_Debug CMakeFiles/rectangle_sorting_1.dir/24_10_2024_sixth_lab/rectangle_sorting_1.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/rectangle_sorting_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = rectangle_sorting_1
+  TARGET_PDB = rectangle_sorting_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target rectangle_sorting_2
+
+
+#############################################
+# Order-only phony target for rectangle_sorting_2
+
+build cmake_object_order_depends_target_rectangle_sorting_2: phony || .
+
+build CMakeFiles/rectangle_sorting_2.dir/24_10_2024_sixth_lab/rectangle_sorting_2.c.o: C_COMPILER__rectangle_sorting_2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/24_10_2024_sixth_lab/rectangle_sorting_2.c || cmake_object_order_depends_target_rectangle_sorting_2
+  DEP_FILE = CMakeFiles/rectangle_sorting_2.dir/24_10_2024_sixth_lab/rectangle_sorting_2.c.o.d
+  FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  INCLUDES = -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/. -I/Users/atakanakyildiz/CLionProjects/c_lab_classes/26_09_2024_first_lab
+  OBJECT_DIR = CMakeFiles/rectangle_sorting_2.dir
+  OBJECT_FILE_DIR = CMakeFiles/rectangle_sorting_2.dir/24_10_2024_sixth_lab
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target rectangle_sorting_2
+
+
+#############################################
+# Link the executable rectangle_sorting_2
+
+build rectangle_sorting_2: C_EXECUTABLE_LINKER__rectangle_sorting_2_Debug CMakeFiles/rectangle_sorting_2.dir/24_10_2024_sixth_lab/rectangle_sorting_2.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/rectangle_sorting_2.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = rectangle_sorting_2
+  TARGET_PDB = rectangle_sorting_2.dbg
 
 
 #############################################
@@ -273,7 +500,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
 
-build all: phony 1_1_a_InputVerificationAndConversion 1_1_b_IntegerConversionWithAtof 1_1_c_d_VerificationOfTheNumberOfPassportCharacters 1_1_e_ConversionOfInputCharactersTouUpercaseLowercase 1_2MorseCodeTranslator morse_command
+build all: phony 1_1_a_InputVerificationAndConversion 1_1_b_IntegerConversionWithAtof 1_1_c_d_VerificationOfTheNumberOfPassportCharacters 1_1_e_ConversionOfInputCharactersTouUpercaseLowercase 1_2MorseCodeTranslator morse_command 1_1 1_2 2_1 1_1_lab_5 rectangle_sorting_1 rectangle_sorting_2
 
 # =============================================================================
 # Built-in targets
