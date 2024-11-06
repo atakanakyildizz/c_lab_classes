@@ -77,6 +77,37 @@ build student_record_management_system: C_EXECUTABLE_LINKER__student_record_mana
   TARGET_FILE = student_record_management_system
   TARGET_PDB = student_record_management_system.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target lab6
+
+
+#############################################
+# Order-only phony target for lab6
+
+build cmake_object_order_depends_target_lab6: phony || .
+
+build CMakeFiles/lab6.dir/Lab_6_2/main.c.o: C_COMPILER__lab6_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6_2/main.c || cmake_object_order_depends_target_lab6
+  DEP_FILE = CMakeFiles/lab6.dir/Lab_6_2/main.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/lab6.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab6.dir/Lab_6_2
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target lab6
+
+
+#############################################
+# Link the executable lab6
+
+build lab6: C_EXECUTABLE_LINKER__lab6_Debug CMakeFiles/lab6.dir/Lab_6_2/main.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/lab6.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = lab6
+  TARGET_PDB = lab6.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -111,7 +142,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
 
-build all: phony student_record_management_system
+build all: phony student_record_management_system lab6
 
 # =============================================================================
 # Built-in targets
