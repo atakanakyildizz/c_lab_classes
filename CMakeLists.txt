@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(student_record_management_system C)
+project(lab_exercises C)
 
 set(CMAKE_C_STANDARD 99)
 

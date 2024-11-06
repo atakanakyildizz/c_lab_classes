@@ -1,0 +1,3 @@
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/build/CMakeFiles/students_record_system.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/build/CMakeFiles/edit_cache.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/build/CMakeFiles/rebuild_cache.dir
