@@ -128,7 +128,7 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=c_lab_classes
+CMAKE_PROJECT_NAME:STATIC=student_record_management_system
 
 //Path to a program.
 CMAKE_RANLIB:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ranlib
@@ -203,6 +203,24 @@ c_lab_classes_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
 c_lab_classes_SOURCE_DIR:STATIC=/Users/atakanakyildiz/CLionProjects/c_lab_classes
+
+//Value Computed by CMake
+lab_classes_BINARY_DIR:STATIC=/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
+
+//Value Computed by CMake
+lab_classes_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+lab_classes_SOURCE_DIR:STATIC=/Users/atakanakyildiz/CLionProjects/c_lab_classes
+
+//Value Computed by CMake
+student_record_management_system_BINARY_DIR:STATIC=/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
+
+//Value Computed by CMake
+student_record_management_system_IS_TOP_LEVEL:STATIC=ON
+
+//Value Computed by CMake
+student_record_management_system_SOURCE_DIR:STATIC=/Users/atakanakyildiz/CLionProjects/c_lab_classes
 
 
 ########################
