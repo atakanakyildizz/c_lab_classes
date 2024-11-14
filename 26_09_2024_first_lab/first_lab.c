@@ -6,7 +6,7 @@
 #include <string.h>
 //Question 1.1
 /*
-int main() {
+int folder1_2() {
     int number, predict;
     int i = 0;
     number = rand() % 100;
@@ -38,7 +38,7 @@ int main() {
 }*/
 
 //Question 1.2
-/*int main() {
+/*int folder1_2() {
     int balance = 500;
     int option, change;
 
@@ -78,7 +78,7 @@ int main() {
 }*/
 
 //Question 1.3
-/*int main() {
+/*int folder1_2() {
     int marbles = 57;
     int choice;
     int first_player = rand()%1;

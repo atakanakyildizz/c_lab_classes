@@ -41,72 +41,159 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target student_record_management_system
+# Object build statements for EXECUTABLE target catalan
 
 
 #############################################
-# Order-only phony target for student_record_management_system
+# Order-only phony target for catalan
 
-build cmake_object_order_depends_target_student_record_management_system: phony || .
+build cmake_object_order_depends_target_catalan: phony || .
 
-build CMakeFiles/student_record_management_system.dir/Lab_6/main.c.o: C_COMPILER__student_record_management_system_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6/main.c || cmake_object_order_depends_target_student_record_management_system
-  DEP_FILE = CMakeFiles/student_record_management_system.dir/Lab_6/main.c.o.d
+build CMakeFiles/catalan.dir/lab_08/catalan_numbers.c.o: C_COMPILER__catalan_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/lab_08/catalan_numbers.c || cmake_object_order_depends_target_catalan
+  DEP_FILE = CMakeFiles/catalan.dir/lab_08/catalan_numbers.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/student_record_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles/student_record_management_system.dir/Lab_6
-
-build CMakeFiles/student_record_management_system.dir/Lab_6/student_record_management_system.c.o: C_COMPILER__student_record_management_system_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6/student_record_management_system.c || cmake_object_order_depends_target_student_record_management_system
-  DEP_FILE = CMakeFiles/student_record_management_system.dir/Lab_6/student_record_management_system.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/student_record_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles/student_record_management_system.dir/Lab_6
+  OBJECT_DIR = CMakeFiles/catalan.dir
+  OBJECT_FILE_DIR = CMakeFiles/catalan.dir/lab_08
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target student_record_management_system
+# Link build statements for EXECUTABLE target catalan
 
 
 #############################################
-# Link the executable student_record_management_system
+# Link the executable catalan
 
-build student_record_management_system: C_EXECUTABLE_LINKER__student_record_management_system_Debug CMakeFiles/student_record_management_system.dir/Lab_6/main.c.o CMakeFiles/student_record_management_system.dir/Lab_6/student_record_management_system.c.o
+build catalan: C_EXECUTABLE_LINKER__catalan_Debug CMakeFiles/catalan.dir/lab_08/catalan_numbers.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
-  OBJECT_DIR = CMakeFiles/student_record_management_system.dir
+  OBJECT_DIR = CMakeFiles/catalan.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = student_record_management_system
-  TARGET_PDB = student_record_management_system.dbg
+  TARGET_FILE = catalan
+  TARGET_PDB = catalan.dbg
 
 # =============================================================================
-# Object build statements for EXECUTABLE target lab6
+# Object build statements for EXECUTABLE target multiplication
 
 
 #############################################
-# Order-only phony target for lab6
+# Order-only phony target for multiplication
 
-build cmake_object_order_depends_target_lab6: phony || .
+build cmake_object_order_depends_target_multiplication: phony || .
 
-build CMakeFiles/lab6.dir/Lab_6_2/main.c.o: C_COMPILER__lab6_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6_2/main.c || cmake_object_order_depends_target_lab6
-  DEP_FILE = CMakeFiles/lab6.dir/Lab_6_2/main.c.o.d
+build CMakeFiles/multiplication.dir/lab_08/multiplication.c.o: C_COMPILER__multiplication_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/lab_08/multiplication.c || cmake_object_order_depends_target_multiplication
+  DEP_FILE = CMakeFiles/multiplication.dir/lab_08/multiplication.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab6.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6.dir/Lab_6_2
+  OBJECT_DIR = CMakeFiles/multiplication.dir
+  OBJECT_FILE_DIR = CMakeFiles/multiplication.dir/lab_08
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target lab6
+# Link build statements for EXECUTABLE target multiplication
 
 
 #############################################
-# Link the executable lab6
+# Link the executable multiplication
 
-build lab6: C_EXECUTABLE_LINKER__lab6_Debug CMakeFiles/lab6.dir/Lab_6_2/main.c.o
+build multiplication: C_EXECUTABLE_LINKER__multiplication_Debug CMakeFiles/multiplication.dir/lab_08/multiplication.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
-  OBJECT_DIR = CMakeFiles/lab6.dir
+  OBJECT_DIR = CMakeFiles/multiplication.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = lab6
-  TARGET_PDB = lab6.dbg
+  TARGET_FILE = multiplication
+  TARGET_PDB = multiplication.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target white-spaces_count
+
+
+#############################################
+# Order-only phony target for white-spaces_count
+
+build cmake_object_order_depends_target_white-spaces_count: phony || .
+
+build CMakeFiles/white-spaces_count.dir/lab_08/white-spaces_count.c.o: C_COMPILER__white-spaces_count_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/lab_08/white-spaces_count.c || cmake_object_order_depends_target_white-spaces_count
+  DEP_FILE = CMakeFiles/white-spaces_count.dir/lab_08/white-spaces_count.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/white-spaces_count.dir
+  OBJECT_FILE_DIR = CMakeFiles/white-spaces_count.dir/lab_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target white-spaces_count
+
+
+#############################################
+# Link the executable white-spaces_count
+
+build white-spaces_count: C_EXECUTABLE_LINKER__white-spaces_count_Debug CMakeFiles/white-spaces_count.dir/lab_08/white-spaces_count.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/white-spaces_count.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = white-spaces_count
+  TARGET_PDB = white-spaces_count.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target palindromes
+
+
+#############################################
+# Order-only phony target for palindromes
+
+build cmake_object_order_depends_target_palindromes: phony || .
+
+build CMakeFiles/palindromes.dir/lab_08/palindromes.c.o: C_COMPILER__palindromes_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/lab_08/palindromes.c || cmake_object_order_depends_target_palindromes
+  DEP_FILE = CMakeFiles/palindromes.dir/lab_08/palindromes.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/palindromes.dir
+  OBJECT_FILE_DIR = CMakeFiles/palindromes.dir/lab_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target palindromes
+
+
+#############################################
+# Link the executable palindromes
+
+build palindromes: C_EXECUTABLE_LINKER__palindromes_Debug CMakeFiles/palindromes.dir/lab_08/palindromes.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/palindromes.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = palindromes
+  TARGET_PDB = palindromes.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target triangles
+
+
+#############################################
+# Order-only phony target for triangles
+
+build cmake_object_order_depends_target_triangles: phony || .
+
+build CMakeFiles/triangles.dir/lab_08/triangles.c.o: C_COMPILER__triangles_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/lab_08/triangles.c || cmake_object_order_depends_target_triangles
+  DEP_FILE = CMakeFiles/triangles.dir/lab_08/triangles.c.o.d
+  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
+  OBJECT_DIR = CMakeFiles/triangles.dir
+  OBJECT_FILE_DIR = CMakeFiles/triangles.dir/lab_08
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target triangles
+
+
+#############################################
+# Link the executable triangles
+
+build triangles: C_EXECUTABLE_LINKER__triangles_Debug CMakeFiles/triangles.dir/lab_08/triangles.c.o
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
+  OBJECT_DIR = CMakeFiles/triangles.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = triangles
+  TARGET_PDB = triangles.dbg
 
 
 #############################################
@@ -142,7 +229,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
 
-build all: phony student_record_management_system lab6
+build all: phony catalan multiplication white-spaces_count palindromes triangles
 
 # =============================================================================
 # Built-in targets

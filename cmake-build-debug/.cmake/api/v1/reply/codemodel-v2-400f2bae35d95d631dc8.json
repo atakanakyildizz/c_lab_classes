@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab_exercises",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "catalan::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-catalan-Debug-4487b265094b3d2da95f.json",
+					"name" : "catalan",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "multiplication::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-multiplication-Debug-25ce4d489121bf0269fd.json",
+					"name" : "multiplication",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "palindromes::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-palindromes-Debug-e1d6619c2c6beead8952.json",
+					"name" : "palindromes",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "triangles::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-triangles-Debug-1c4e2cc25a0de3ebf002.json",
+					"name" : "triangles",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "white-spaces_count::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-white-spaces_count-Debug-9cbc10c75a59d471b95f.json",
+					"name" : "white-spaces_count",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug",
+		"source" : "/Users/atakanakyildiz/CLionProjects/c_lab_classes"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

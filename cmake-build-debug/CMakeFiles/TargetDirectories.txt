@@ -1,4 +1,7 @@
-/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/student_record_management_system.dir
-/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/lab6.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/catalan.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/multiplication.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/white-spaces_count.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/palindromes.dir
+/Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/triangles.dir
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/CMakeFiles/rebuild_cache.dir
