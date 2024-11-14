@@ -41,72 +41,35 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target student_record_management_system
+# Object build statements for EXECUTABLE target main2
 
 
 #############################################
-# Order-only phony target for student_record_management_system
+# Order-only phony target for main2
 
-build cmake_object_order_depends_target_student_record_management_system: phony || .
+build cmake_object_order_depends_target_main2: phony || .
 
-build CMakeFiles/student_record_management_system.dir/Lab_6/main.c.o: C_COMPILER__student_record_management_system_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6/main.c || cmake_object_order_depends_target_student_record_management_system
-  DEP_FILE = CMakeFiles/student_record_management_system.dir/Lab_6/main.c.o.d
+build CMakeFiles/main2.dir/lab_07/folder2_1/main.c.o: C_COMPILER__main2_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/lab_07/folder2_1/main.c || cmake_object_order_depends_target_main2
+  DEP_FILE = CMakeFiles/main2.dir/lab_07/folder2_1/main.c.o.d
   FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/student_record_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles/student_record_management_system.dir/Lab_6
-
-build CMakeFiles/student_record_management_system.dir/Lab_6/student_record_management_system.c.o: C_COMPILER__student_record_management_system_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6/student_record_management_system.c || cmake_object_order_depends_target_student_record_management_system
-  DEP_FILE = CMakeFiles/student_record_management_system.dir/Lab_6/student_record_management_system.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/student_record_management_system.dir
-  OBJECT_FILE_DIR = CMakeFiles/student_record_management_system.dir/Lab_6
+  OBJECT_DIR = CMakeFiles/main2.dir
+  OBJECT_FILE_DIR = CMakeFiles/main2.dir/lab_07/folder2_1
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target student_record_management_system
+# Link build statements for EXECUTABLE target main2
 
 
 #############################################
-# Link the executable student_record_management_system
+# Link the executable main2
 
-build student_record_management_system: C_EXECUTABLE_LINKER__student_record_management_system_Debug CMakeFiles/student_record_management_system.dir/Lab_6/main.c.o CMakeFiles/student_record_management_system.dir/Lab_6/student_record_management_system.c.o
+build main2: C_EXECUTABLE_LINKER__main2_Debug CMakeFiles/main2.dir/lab_07/folder2_1/main.c.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
-  OBJECT_DIR = CMakeFiles/student_record_management_system.dir
+  OBJECT_DIR = CMakeFiles/main2.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = student_record_management_system
-  TARGET_PDB = student_record_management_system.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target lab6
-
-
-#############################################
-# Order-only phony target for lab6
-
-build cmake_object_order_depends_target_lab6: phony || .
-
-build CMakeFiles/lab6.dir/Lab_6_2/main.c.o: C_COMPILER__lab6_unscanned_Debug /Users/atakanakyildiz/CLionProjects/c_lab_classes/Lab_6_2/main.c || cmake_object_order_depends_target_lab6
-  DEP_FILE = CMakeFiles/lab6.dir/Lab_6_2/main.c.o.d
-  FLAGS = -g -std=gnu99 -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0 -fcolor-diagnostics
-  OBJECT_DIR = CMakeFiles/lab6.dir
-  OBJECT_FILE_DIR = CMakeFiles/lab6.dir/Lab_6_2
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target lab6
-
-
-#############################################
-# Link the executable lab6
-
-build lab6: C_EXECUTABLE_LINKER__lab6_Debug CMakeFiles/lab6.dir/Lab_6_2/main.c.o
-  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk -mmacosx-version-min=15.0
-  OBJECT_DIR = CMakeFiles/lab6.dir
-  POST_BUILD = :
-  PRE_LINK = :
-  TARGET_FILE = lab6
-  TARGET_PDB = lab6.dbg
+  TARGET_FILE = main2
+  TARGET_PDB = main2.dbg
 
 
 #############################################
@@ -142,7 +105,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/atakanakyildiz/CLionProjects/c_lab_classes/cmake-build-debug
 
-build all: phony student_record_management_system lab6
+build all: phony main2
 
 # =============================================================================
 # Built-in targets

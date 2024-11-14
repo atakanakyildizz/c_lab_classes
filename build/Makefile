@@ -85,19 +85,19 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 .PHONY : rebuild_cache/fast
 
-# The main all target
+# The folder1_2 all target
 all: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atakanakyildiz/CLionProjects/c_lab_classes/build/CMakeFiles /Users/atakanakyildiz/CLionProjects/c_lab_classes/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/atakanakyildiz/CLionProjects/c_lab_classes/build/CMakeFiles 0
 .PHONY : all
 
-# The main clean target
+# The folder1_2 clean target
 clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 clean
 .PHONY : clean
 
-# The main clean target
+# The folder1_2 clean target
 clean/fast: clean
 .PHONY : clean/fast
 
